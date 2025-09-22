@@ -1,0 +1,36 @@
+body {
+    margin: 15px;
+    border: solid 1px grey;
+    font-family:'Lucida Handwriting', 'Comic Sans MS','cursive';
+    padding:10px;
+    font-size: 13pt;
+    
+}
+
+h1{
+    background-color: lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.new-item{
+    color:rgb(184, 121, 76);
+}
+
+p {
+    line-height: 26px;
+    padding:5px;
+}
+
+.s-menu{
+    color:chocolate;
+}
+
+footer{
+    padding:20px;
+}
+
+em{
+    color:red;
+    
+}
