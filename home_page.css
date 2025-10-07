@@ -1,0 +1,49 @@
+
+body {
+    font-family: 'Lucida Handwriting', 'Comic Sans MS','cursive';
+    background-color: #456990;
+    color: #E8EBE4;
+}
+
+header{
+    text-align: center;
+    padding: auto;
+}
+
+h1, h2, h3 {
+    color:azure;
+}
+
+hr{
+    border: 1px solid whitesmoke;
+}
+
+a:visited {
+    color: peru;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: rebeccapurple;
+}
+
+footer a:hover{
+    color: purple;
+}
+
+footer a{
+    color: rebeccapurple;
+}
+
+a {
+    font-weight: bold;
+}
+
+main {
+    margin: 15px;
+}
+
+
