@@ -2,6 +2,7 @@ body {
 	margin: 2em; 
 	background-color:#5A1807 ;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	line-height: 2pc;
 }
 
 .right{
@@ -21,10 +22,11 @@ h1 {
 }
 
 header {
+	display:flex;
 	background-color: #DB5461;
 	border-left-color:white ;
-	margin: 10px;
-	text-align: center;
+	margin: 2px;
+	justify-content: space-between;
 	
 }
 
