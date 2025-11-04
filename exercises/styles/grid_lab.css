@@ -1,0 +1,54 @@
+
+body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "title rec1 rec1"
+    "first rec1 rec1"
+    ". row8 ."
+    ". rec2 rec3"
+    ". rec2 rec3"
+    ". row7 row6";
+    gap: 10px;
+}
+
+.rectangle1 {
+    height: 629px;
+    border: 1px;
+    background-color: grey;
+    grid-area: rec1;
+}
+
+.rectangle2 {
+    height: 508px;
+    border: 1px;
+    background-color: grey;
+    grid-area: rec2;
+}
+
+.rectangle3 {
+    height: 508px;
+    border: 1px;
+    background-color: grey;
+    grid-area: rec3;
+}
+
+.row8 {
+    grid-area: row8;
+}
+
+.row7{
+    grid-area: row7;
+}
+
+.row6 {
+    grid-area: row6;
+}
+
+#mpara {
+    grid-area: first;
+}
+
+#head {
+    grid-area: title;
+}
