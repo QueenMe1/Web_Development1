@@ -5,16 +5,32 @@ body {
 
 #nav {
     background-color: #6B9080;
+    padding: 10px;
+    position: relative;
+}
+
+.nav-links {
     display: flex;
     justify-content: space-evenly;
 }
 
-nav > a {
+.nav-links a {
     color: #EDF7F6;
     font-size: larger;
+    text-decoration: none;
+    padding: 10px;
 }
 
-a:active #nav{
+.nav-bar{
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: #EDF7F6;
+    cursor: pointer;
+    display: none; 
+}
+
+a:active .nav-links{
     color: #CCA43B;
 }
 
@@ -32,7 +48,7 @@ h1, h2, h3 {
 
 .state:hover {
     fill: #CCA43B;
-    
+    cursor: pointer;
 }
 
 .state:active {
@@ -43,8 +59,9 @@ fill: #6D4C3D;
     width:100%;
     margin-top: 2px;
 }
-svg {
-    width: 70%;
+
+.info-box {
+
 }
 
 .holder {
@@ -63,6 +80,28 @@ p {
 @media (max-width:800px) {
     .holder{
         flex-direction: column;
+    }
 
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #infoBox {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    #nav.active .nav-links {
+        display: flex;
+        background-color: #6B9080;
     }
 }
