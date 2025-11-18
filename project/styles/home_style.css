@@ -1,0 +1,68 @@
+body {
+    background-color:#EDF7F6 ;
+    font-family: "Inter", sans-serif;
+}
+
+#nav {
+    background-color: #6B9080;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav > a {
+    color: #EDF7F6;
+    font-size: larger;
+}
+
+a:active #nav{
+    color: #CCA43B;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #6D4C3D;
+    font-family: "Playfair Display", serif;
+}
+
+.state {
+    align-content: center;
+    fill: #6B9080;
+    stroke: #001514;
+}
+
+.state:hover {
+    fill: #CCA43B;
+    
+}
+
+.state:active {
+fill: #6D4C3D;
+}
+
+.map-wrapper {
+    width:100%;
+    margin-top: 2px;
+}
+svg {
+    width: 70%;
+}
+
+.holder {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+p {
+    color: #001514;
+    padding: 2%;
+}
+
+
+@media (max-width:800px) {
+    .holder{
+        flex-direction: column;
+
+    }
+}
