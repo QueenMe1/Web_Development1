@@ -56,8 +56,10 @@ fill: #6D4C3D;
 }
 
 .map-wrapper {
+    display: flex;
     width:100%;
     margin-top: 2px;
+    justify-content: center;
 }
 
 .info-box {
@@ -67,17 +69,17 @@ fill: #6D4C3D;
 .holder {
     display: flex;
     gap: 20px;
-    justify-content: space-around;
     padding: 20px;
 }
 
 p {
     color: #001514;
-    padding: 2%;
+    padding: 1%;
+    line-height: 2.4;
 }
 
 
-@media (max-width:800px) {
+@media (max-width:700px) {
     .holder{
         flex-direction: column;
     }
