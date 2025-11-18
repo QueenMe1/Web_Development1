@@ -62,9 +62,9 @@ fill: #6D4C3D;
     justify-content: center;
 }
 
-.info-box {
+/*.info-box {
 
-}
+} */
 
 .holder {
     display: flex;
@@ -90,20 +90,29 @@ p {
         text-align: center;
     }
 
-    #infoBox {
+    /*#infoBox {
         position: relative;
         top: 0;
         right: 0;
         width: 100%;
         margin-top: 15px;
-    }
+    } */
 
     .nav-bar {
         display: block;
+        font-size: 30px;
+        border: none;
+        color: #6B9080;
+    }
+    .state {
+        align-content: center;
+        fill: #6B9080;
+        stroke: #001514;
     }
 
     #nav.active .nav-links {
         display: flex;
         background-color: #6B9080;
+        align-items: flex-start;
     }
 }
