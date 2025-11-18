@@ -41,9 +41,10 @@ h1, h2, h3 {
 }
 
 .state {
-    align-content: center;
     fill: #6B9080;
     stroke: #001514;
+    width: 744px;
+    height: auto ;
 }
 
 .state:hover {
@@ -57,20 +58,19 @@ fill: #6D4C3D;
 
 .map-wrapper {
     display: flex;
-    width:100%;
     margin-top: 2px;
     justify-content: center;
 }
 
 /*.info-box {
 
-} */
+} 
 
 .holder {
     display: flex;
     gap: 20px;
     padding: 20px;
-}
+} */
 
 p {
     color: #001514;
@@ -92,8 +92,6 @@ p {
 
     /*#infoBox {
         position: relative;
-        top: 0;
-        right: 0;
         width: 100%;
         margin-top: 15px;
     } */
@@ -104,12 +102,7 @@ p {
         border: none;
         color: #6B9080;
     }
-    .state {
-        align-content: center;
-        fill: #6B9080;
-        stroke: #001514;
-    }
-
+    
     #nav.active .nav-links {
         display: flex;
         background-color: #6B9080;
