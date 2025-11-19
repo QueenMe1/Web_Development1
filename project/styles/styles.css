@@ -3,6 +3,12 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+p {
+    color: #001514;
+    padding: 1%;
+    line-height: 2.4;
+}
+
 #nav {
     background-color: #6B9080;
     padding: 10px;
@@ -43,8 +49,8 @@ h1, h2, h3 {
 .state {
     fill: #6B9080;
     stroke: #001514;
-    width: 744px;
-    height: auto ;
+    /*width: 744px;
+    height: auto ;*/
 }
 
 .state:hover {
@@ -72,14 +78,43 @@ fill: #6D4C3D;
     padding: 20px;
 } */
 
-p {
-    color: #001514;
-    padding: 1%;
-    line-height: 2.4;
+.flag {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
+.flag svg {
+    width: 400px;          
+    height: auto;
+    flex-shrink: 0;       
+}
 
-@media (max-width:700px) {
+.flag p {
+    max-width: 1500px;      
+}
+
+.an1 {
+    display: flex;
+    justify-content: center;
+}
+
+.an2 {
+    display: flex;
+    justify-content: center;
+}
+
+.st0{fill:#D7DE27;}
+.st1{fill:#FFFFFF;}
+.st2{fill:#D1CDB2;}
+.st3{fill:#ADA893;}
+.st4{fill:#01903C;}
+.st5{fill:#E4AA24;} 
+.st6{fill:#C82C20;}
+.st7{fill:#252118;}
+
+
+/*@media (max-width:700px) {
     .holder{
         flex-direction: column;
     }
@@ -90,11 +125,11 @@ p {
         text-align: center;
     }
 
-    /*#infoBox {
+    #infoBox {
         position: relative;
         width: 100%;
         margin-top: 15px;
-    } */
+    } 
 
     .nav-bar {
         display: block;
@@ -109,3 +144,4 @@ p {
         align-items: flex-start;
     }
 }
+    */
