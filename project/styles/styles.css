@@ -113,6 +113,21 @@ fill: #6D4C3D;
 .st6{fill:#C82C20;}
 .st7{fill:#252118;}
 
+.arms {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.arms svg {
+    width: 400px;          
+    height: auto;
+    flex-shrink: 0;       
+}
+
+.arms p {
+    max-width: 1500px;      
+}
 
 /*@media (max-width:700px) {
     .holder{
