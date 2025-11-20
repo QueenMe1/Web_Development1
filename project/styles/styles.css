@@ -158,6 +158,18 @@ fill: #6D4C3D;
     max-width: 1500px;      
 }
 
+.fun1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.fun2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
 /*@media (max-width:700px) {
     .holder{
         flex-direction: column;
