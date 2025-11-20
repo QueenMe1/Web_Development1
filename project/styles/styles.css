@@ -129,6 +129,35 @@ fill: #6D4C3D;
     max-width: 1500px;      
 }
 
+#specialP {
+    text-align: center;
+}
+
+#specialH {
+    text-align: left;
+    margin: 0;
+}
+
+#onPage {
+    border-style: groove;
+}
+
+#pres {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#pres img {
+    width: 400px;          
+    height: auto;
+    flex-shrink: 0;       
+}
+
+#pres p {
+    max-width: 1500px;      
+}
+
 /*@media (max-width:700px) {
     .holder{
         flex-direction: column;
