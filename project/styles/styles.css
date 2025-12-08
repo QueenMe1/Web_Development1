@@ -176,6 +176,11 @@ fill: #6D4C3D;
     max-width: 1500px;      
 }
 
+iframe {
+    width: 420;
+    height: 350;
+}
+
 .fun1 {
     display: flex;
     justify-content: space-evenly;
@@ -235,6 +240,13 @@ footer {
 
     .fun1 {
         flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+
+    iframe {
+        width: 70%;
+        height: auto;
     }
 
    .an1 {
@@ -253,6 +265,10 @@ footer {
    }
 
    .flag {
+    flex-direction: column;
+   }
+
+   .pres {
     flex-direction: column;
    }
 
