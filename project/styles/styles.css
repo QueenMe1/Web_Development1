@@ -56,27 +56,45 @@ h1, h2, h3 {
 .state:hover {
     fill: #CCA43B;
     cursor: pointer;
+    
 }
 
 .state:active {
 fill: #6D4C3D;
 }
 
-.map-wrapper {
+#map-infocent {
     display: flex;
-    margin-top: 2px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-/*.info-box {
+.map-wrapper {
+    position: relative;
+    margin-top: 2px;
+    
+}
 
+.map-wrapper svg{
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+#info-center {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    max-width: 260px;
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    font-size: 0.9rem;
 } 
 
-.holder {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-} */
+.info-center.hidden {
+    display: none;
+}
 
 .flag {
     display: flex;
@@ -162,6 +180,7 @@ fill: #6D4C3D;
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
+    column-gap: 10px;
 }
 
 .fun2 {
@@ -172,7 +191,12 @@ fill: #6D4C3D;
     margin: 20px;
 }
 
-/*@media (max-width:700px) {
+footer {
+    float: right;
+    font-size: smaller;
+}
+
+@media screen and (max-width:320px) {
     .holder{
         flex-direction: column;
     }
@@ -183,11 +207,9 @@ fill: #6D4C3D;
         text-align: center;
     }
 
-    #infoBox {
-        position: relative;
-        width: 100%;
-        margin-top: 15px;
-    } 
+    #map-infocent {
+        flex-direction: column;
+    }
 
     .nav-bar {
         display: block;
@@ -201,5 +223,30 @@ fill: #6D4C3D;
         background-color: #6B9080;
         align-items: flex-start;
     }
+
+    .fun1 {
+        flex-direction: column;
+    }
+
+   .an1 {
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .an2 {
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .arms {
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .flag {
+    flex-direction: column;
+   }
+
+   
 }
-    */
+    
