@@ -1,0 +1,111 @@
+body {
+    margin: 10px;
+    padding: 0;
+}
+
+.header {
+    grid-area: header;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.side1 {
+    grid-area: side1;
+}
+
+.side2 {
+    grid-area: side2;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.main {
+    grid-area: main;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1em;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "side1 main"
+    "side2 main"
+    "footer footer";
+}
+
+.box {
+    background-color: #00b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: arial;
+}
+
+.nav ul{
+    display: flex;
+ 
+    
+   flex-direction: row;
+    
+    justify-content: space-evenly;
+    
+    padding-left:0px;
+
+}
+
+/* HINT: This media query shoud activate when screen size is greater than 600px */
+@media only screen and (min-width:600px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 100px 1fr 3fr;
+        grid-gap: 1em;
+        grid-template-areas: 
+        "header header header"
+        "nav side1 main"
+        "nav side2 main"
+        "footer footer footer";
+        
+    }
+    
+    .nav ul{
+        
+        flex-direction: column;
+              
+    }
+}
+
+/*You shouldnt have to touch any of this CSS below! */
+.main,
+.side1,
+.side2,
+.footer {
+    background-color: #00b;
+    color: #fff;
+    padding: 20px;
+    font-family: arial;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.side1,
+.side2 {
+    background-color: #0d0;
+}
