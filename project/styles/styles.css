@@ -36,7 +36,7 @@ p {
     display: none; 
 }
 
-a:active .nav-links{
+.nav-links a:active {
     color: #CCA43B;
 }
 
@@ -197,31 +197,40 @@ footer {
 }
 
 @media screen and (max-width:320px) {
-    .holder{
-        flex-direction: column;
-    }
 
     .nav-links {
-        display: none;
+        display: none;             
         flex-direction: column;
         text-align: center;
-    }
-
-    #map-infocent {
-        flex-direction: column;
+        background-color: #6B9080;
+        align-items: flex-start;
+        padding: 10px 0;
+        gap: 5px;
     }
 
     .nav-bar {
         display: block;
-        font-size: 30px;
+        font-size: large;
         border: none;
-        color: #6B9080;
+        background-color: #6B9080;
+        cursor: pointer;
+    }
+
+    .nav-bar:active {
+        color: #CCA43B;
+    }
+
+    .nav-links a {
+        font-size: 1rem;           
+        padding: 8px 16px;
     }
     
     #nav.active .nav-links {
         display: flex;
-        background-color: #6B9080;
-        align-items: flex-start;
+    }
+
+    #map-infocent {
+        flex-direction: column;
     }
 
     .fun1 {
