@@ -1,4 +1,4 @@
-const nav = document.getElementById('.nav');
+const nav = document.getElementById('#nav');
 const menuButton = document.getElementById('.nav-bar');
 
 menuButton.addEventListener('click', () => {
