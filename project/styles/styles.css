@@ -203,7 +203,7 @@ footer {
     font-size: smaller;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     #pres {
         flex-direction: column;
         justify-content: center;
