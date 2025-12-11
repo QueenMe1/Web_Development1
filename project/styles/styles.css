@@ -204,6 +204,7 @@ footer {
 }
 
 @media screen and (max-width:900px) {
+    
     #pres {
         flex-direction: column;
         justify-content: center;
@@ -212,17 +213,13 @@ footer {
 
     .arms {
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
     
     .flag {
         flex-direction: column;
-    }
-
-    #form {
         align-items: center;
     }
-    
 }
 
 @media screen and (max-width:320px) {
