@@ -164,6 +164,8 @@ fill: #6D4C3D;
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    margin-bottom: 20px;
+    margin-top:10px ;
 }
 
 #pres img {
@@ -268,8 +270,9 @@ footer {
     flex-direction: column;
    }
 
-   .pres {
+   #pres {
     flex-direction: column;
+    justify-content: center;
    }
 
    
