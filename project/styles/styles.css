@@ -209,6 +209,19 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
+    .arms {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .flag {
+        flex-direction: column;
+    }
+
+    #form {
+        align-items: center;
+    }
     
 }
 
