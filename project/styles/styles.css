@@ -83,7 +83,7 @@ h1, h2, h3 {
 
 #info-center {
     display: none;
-    position: absolute;
+   
     right: 0.5rem;
     top: 0.5rem;
     max-width: 260px;
