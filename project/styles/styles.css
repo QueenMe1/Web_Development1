@@ -60,7 +60,8 @@ h1, h2, h3 {
 }
 
 .state:active {
-fill: #6D4C3D;
+    fill: #6D4C3D;
+    
 }
 
 #map-infocent {
@@ -81,6 +82,7 @@ fill: #6D4C3D;
 }
 
 #info-center {
+    display: none;
     position: absolute;
     right: 0.5rem;
     top: 0.5rem;
@@ -90,10 +92,11 @@ fill: #6D4C3D;
     padding: 0.75rem 1rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     font-size: 0.9rem;
+   
 } 
 
-.info-center.hidden {
-    display: none;
+#info-center.show {
+    display: block;
 }
 
 .flag {
@@ -176,11 +179,6 @@ fill: #6D4C3D;
 
 #pres p {
     max-width: 1500px;      
-}
-
-iframe {
-    width: 420;
-    height: 350;
 }
 
 .fun1 {
