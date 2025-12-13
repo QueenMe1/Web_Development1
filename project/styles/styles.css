@@ -40,7 +40,7 @@ p {
     color: #CCA43B;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     text-align: center;
     color: #6D4C3D;
     font-family: "Playfair Display", serif;
@@ -66,7 +66,7 @@ h1, h2, h3 {
 
 #map-infocent {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .map-wrapper {
@@ -97,6 +97,10 @@ h1, h2, h3 {
 
 #info-center.show {
     display: block;
+}
+
+#info-center.hidden {
+    display: none;
 }
 
 .flag {
@@ -179,6 +183,16 @@ h1, h2, h3 {
 
 #pres p {
     max-width: 1500px;      
+}
+
+#infocenter p {
+    text-align: center;
+}
+
+#close {
+    font-weight: bolder;
+    border: #001514;
+    border-style: groove;
 }
 
 .fun1 {
@@ -293,7 +307,11 @@ footer {
     align-items: center;
    }
 
+   .map-wrapper svg {
+    width: 320px;
+   }
 
+   
    
 }
     

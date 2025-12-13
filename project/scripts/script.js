@@ -278,6 +278,7 @@ document.querySelectorAll(".state").forEach(state => {
     state.addEventListener("click", () => {
         const id = state.id;
         const info = stateInfo[id];
+      
         document.getElementById("info-center").classList.add("show");
 
         if (info) {
@@ -290,4 +291,9 @@ document.querySelectorAll(".state").forEach(state => {
     });
 });
 
-console.log('script running?');
+const infoCent = document.getElementById("info-center");
+const exitButton = document.getElementById("close");
+
+exitButton.addEventListener("click", () => {
+    document.getElementById("info-center").classList.remove("show");
+});
