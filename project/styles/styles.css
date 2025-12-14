@@ -198,8 +198,10 @@ h1, h2, h3, h4 {
 .fun1 {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 20px;
     column-gap: 10px;
+    row-gap: 10px;
 }
 
 .fun2 {
@@ -213,6 +215,22 @@ h1, h2, h3, h4 {
 footer {
     float: right;
     font-size: smaller;
+}
+
+#dan {
+    text-align: left;
+}
+
+#pd {
+    text-align: center;
+}
+
+#source {
+    line-height: 40px;
+}
+
+section {
+    margin: 40px;
 }
 
 @media screen and (max-width:900px) {
@@ -232,6 +250,7 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
 }
 
 @media screen and (max-width:320px) {
@@ -278,7 +297,7 @@ footer {
     }
 
     iframe {
-        width: 70%;
+        width: 100%;
         height: auto;
     }
 

@@ -68,7 +68,7 @@ const stateInfo = {
         name: "Taraba - Capital: Jalingo",
         slo: "Pride of the Sahel",
         text: "Yobe’s landscape transitions toward semi-arid Sahel terrain. Communities focus on farming and livestock. Tradition is strong across its towns.",
-        funfact: "Yobe has yielded some of Nigeria’s oldest fossil finds.",
+        funfact: "Taraba hosts Nigeria’s highest peak, Chappal Waddi.",
     },
 
     NGBE: {
