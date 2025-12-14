@@ -30,6 +30,13 @@ header {
 	
 }
 
+.mainP {
+    background-color: #5A1807;
+    border: #EDF7F6;
+    border-style: double;
+    width: 150px;
+    height: 70px;
+}
 
 h2{
 	color: #EEE5E9;
