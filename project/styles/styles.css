@@ -338,7 +338,10 @@ section {
     width: 320px;
    }
 
-   
+    .currency {
+        width: 100%;
+        height: auto;
+    }   
    
 }
     
